@@ -1,0 +1,9 @@
+---
+- name:
+  hosts: localhost
+  tasks:
+    - name:
+      file:
+        path: /root/Documents/file.txt
+        state: touch
+...        
